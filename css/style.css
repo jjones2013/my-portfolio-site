@@ -1,0 +1,50 @@
+html { 
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+} 
+ 
+.col-group {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.container-1 {
+    width: 100%;
+    background-color: rgb(188, 208, 214);
+    padding: 8px;
+}
+
+.container-2 {
+    width: 100%;
+    margin-left: 25px;
+    margin-right: 0px;
+    background-color: lightcyan;
+    padding-left: 8px;
+}
+
+.container-2 p {
+    line-height: 1.6;
+}
+
+.container-2 li {
+    line-height: 1.6;
+}
+
+.snug {
+    margin-top: -25px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
