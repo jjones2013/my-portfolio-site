@@ -4,14 +4,15 @@ html {
 }
 
 body {
-    width: 1200px;
+    font-size: 10.5pt;
+    width: 1000px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
 } 
  
-.col-group {
+.col-group { 
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -20,14 +21,15 @@ body {
 .container-1 {
     width: 100%;
     background-color: rgb(188, 208, 214);
-    padding: 8px;
+    padding: 5px 5px;
+    /* margin-left: -8px; */
 }
 
 .container-2 {
-    width: 100%;
-    margin-left: 25px;
+    max-width: 100%;
+    margin-left: 10px;
     margin-right: 0px;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     padding-left: 8px;
 }
 
@@ -44,7 +46,21 @@ body {
 }
 
 footer {
+    font-style: normal;
     text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.pdf {
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 5px;
+    font-size: normal;
+}
+
+.pdf a {
+    color: white;
+    text-decoration: none;
 }
